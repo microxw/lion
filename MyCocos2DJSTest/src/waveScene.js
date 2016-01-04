@@ -1,3 +1,6 @@
+/*
+ a test scene for sea wave
+ */
 
 var waveTestScene = cc.Scene.extend({
     onEnter: function () {

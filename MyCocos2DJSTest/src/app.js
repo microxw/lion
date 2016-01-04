@@ -1,3 +1,7 @@
+/*
+ the first layer for test
+ */
+
 var HelloWorldLayer = cc.Layer.extend({
     sprite: null,
     ctor: function () {
@@ -31,6 +35,7 @@ var HelloWorldLayer = cc.Layer.extend({
             anchorX: 0.5,
             anchorY: 0.5
         });
+
         //menu is just a holder for the close button
         var menuClose = new cc.Menu(closeItem);
         menuClose.x = 0;
@@ -73,7 +78,7 @@ var HelloWorldLayer = cc.Layer.extend({
             rotation: 180
         });
         this.addChild(this.sprite, 0);
-
+        // run animation
         this.sprite.runAction(
             cc.sequence(
                 cc.rotateTo(2, 0),
@@ -91,12 +96,13 @@ var HelloWorldLayer = cc.Layer.extend({
 
     onMenu1Callback: function (sender) {
         // exchange scene
-        cc.director.runScene(new cc.TransitionFade(1.5, new mapTestScene()));
+        cc.director.runScene(new cc.TransitionFade(1.0, new mapTestScene()));
 
     },
 
     onMenu2Callback: function (sender) {
-        // exchange scene to wave
+        // exchange scene to test wave effection
+        cc.director.runScene(new cc.TransitionFade(1.0, new waveTestScene()));
 
     }
 });

@@ -1,4 +1,6 @@
-// test for how to use a map
+/*
+ test for how to use a tile map
+ */
 
 var TAG_TILE_MAP = -1;
 

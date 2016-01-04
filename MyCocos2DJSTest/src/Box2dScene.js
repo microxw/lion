@@ -1,3 +1,7 @@
+/*
+ 2D body physical animation
+ */
+
 var TAG_SPRITE_MANAGER = 1;
 var PTM_RATIO = 32;
 
