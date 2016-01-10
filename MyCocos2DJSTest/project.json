@@ -14,6 +14,10 @@
         "src/resource.js",
         "src/app.js",
         "src/mapScene.js",
+        "src/mapConfig.js",
+        "src/waveScene.js",
+        "src/waveSea.js",
+        "src/waveSprites.js",
         "src/Box2dScene.js",
         "frameworks/cocos2d-html5/external/box2d/box2d.js"
     ]
