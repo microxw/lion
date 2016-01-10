@@ -4,12 +4,12 @@
 
 var res = {
     HelloWorld_png: "res/HelloWorld.png",
-    CloseNormal_png: "res/CloseNormal.png",
-    CloseSelected_png: "res/CloseSelected.png",
-    Item1Normal_png: "res/item1_n.png",
-    Item1Selected_png: "res/item1_s.png",
-    Item2Normal_png: "res/item2_n.png",
-    Item2Selected_png: "res/item2_s.png",
+    CloseNormal_png : "res/CloseNormal.png",
+    CloseSelected_png : "res/CloseSelected.png",
+    Item1Normal_png : "res/item1_n.png",
+    Item1Selected_png : "res/item1_s.png",
+    Item2Normal_png : "res/item2_n.png",
+    Item2Selected_png : "res/item2_s.png",
     iso_test_png: "res/TileMaps/iso-test.png",
     sister_png: "res/TileMaps/grossinis_sister.png",
     blocks_png: "res/TileMaps/blocks.png",
@@ -19,7 +19,6 @@ var res = {
 };
 
 var g_resources = [];
-
 for (var i in res) {
     g_resources.push(res[i]);
 }

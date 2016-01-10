@@ -48,11 +48,19 @@ var HelloWorldLayer = cc.Layer.extend({
         var item1 = new cc.MenuItemSprite(spriteNormal, spriteSelected, null, this.onMenu1Callback, this);
 
         // add a icon to menu
-        var spriteNormal = new cc.Sprite(res.Item2Normal_png);
-        var spriteSelected = new cc.Sprite(res.Item2Selected_png);
+        spriteNormal = new cc.Sprite(res.Item2Normal_png);
+        spriteSelected = new cc.Sprite(res.Item2Selected_png);
         var item2 = new cc.MenuItemSprite(spriteNormal, spriteSelected, null, this.onMenu2Callback, this);
 
-        var menu = new cc.Menu(item1, item2);
+        spriteNormal = new cc.Sprite(res.Item1Normal_png);
+        spriteSelected = new cc.Sprite(res.Item1Selected_png);
+        var item3 = new cc.MenuItemSprite(spriteNormal, spriteSelected, null, this.onMenu3Callback, this);
+
+        spriteNormal = new cc.Sprite(res.Item2Normal_png);
+        spriteSelected = new cc.Sprite(res.Item2Selected_png);
+        var item4 = new cc.MenuItemSprite(spriteNormal, spriteSelected, null, this.onMenu4Callback, this);
+
+        var menu = new cc.Menu(item1, item2, item3, item4);
         menu.alignItemsVertically();
         menu.x = size.width - 50;
         menu.y = size.height / 2;
@@ -95,16 +103,23 @@ var HelloWorldLayer = cc.Layer.extend({
     },
 
     onMenu1Callback: function (sender) {
-        // exchange scene
-        cc.director.runScene(new cc.TransitionFade(1.0, new mapTestScene()));
-
+        // exchange to map scene
+        cc.director.runScene(new cc.TransitionFade(1.5, new mapTestScene()));
     },
 
     onMenu2Callback: function (sender) {
-        // exchange scene to test wave effection
-        cc.director.runScene(new cc.TransitionFade(1.0, new waveTestScene()));
+        // exchange to wave scene
+        cc.director.runScene(new cc.TransitionFade(1.5, new waveTestScene()));
+    },
 
-    }
+    onMenu3Callback: function (sender) {
+        cc.log("onMenu3Callback");
+    },
+
+    onMenu4Callback: function (sender) {
+        cc.log("onMenu4Callback");
+    },
+
 });
 
 var HelloWorldScene = cc.Scene.extend({
