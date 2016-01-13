@@ -110,9 +110,9 @@
 				<key>originalHeight</key>
 				<integer>402</integer>
 				<key>x</key>
-				<integer>975</integer>
-				<key>y</key>
 				<integer>0</integer>
+				<key>y</key>
+				<integer>481</integer>
 				<key>offsetX</key>
 				<real>0</real>
 				<key>offsetY</key>
@@ -129,9 +129,9 @@
 				<key>originalHeight</key>
 				<integer>112</integer>
 				<key>x</key>
-				<integer>1451</integer>
+				<integer>640</integer>
 				<key>y</key>
-				<integer>0</integer>
+				<integer>238</integer>
 				<key>offsetX</key>
 				<real>0</real>
 				<key>offsetY</key>
@@ -148,9 +148,9 @@
 				<key>originalHeight</key>
 				<integer>180</integer>
 				<key>x</key>
-				<integer>1599</integer>
+				<integer>788</integer>
 				<key>y</key>
-				<integer>0</integer>
+				<integer>238</integer>
 				<key>offsetX</key>
 				<real>0</real>
 				<key>offsetY</key>
@@ -167,26 +167,7 @@
 				<key>originalHeight</key>
 				<integer>458</integer>
 				<key>x</key>
-				<integer>0</integer>
-				<key>y</key>
-				<integer>481</integer>
-				<key>offsetX</key>
-				<real>0</real>
-				<key>offsetY</key>
-				<real>0</real>
-			</dict>
-			<key>25.png</key>
-			<dict>
-				<key>width</key>
-				<integer>20</integer>
-				<key>height</key>
-				<integer>23</integer>
-				<key>originalWidth</key>
-				<integer>20</integer>
-				<key>originalHeight</key>
-				<integer>23</integer>
-				<key>x</key>
-				<integer>454</integer>
+				<integer>476</integer>
 				<key>y</key>
 				<integer>481</integer>
 				<key>offsetX</key>
@@ -200,16 +181,16 @@
 			<key>format</key>
 			<integer>0</integer>
 			<key>textureFileName</key>
-			<string>Cowboy0.png</string>
+			<string>skeletonAnimation0.png</string>
 			<key>realTextureFileName</key>
-			<string>Cowboy0.png</string>
+			<string>skeletonAnimation0.png</string>
 			<key>size</key>
-			<string>{2048,1024}</string>
+			<string>{1024,1024}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>2048</integer>
+			<integer>1024</integer>
 			<key>height</key>
 			<integer>1024</integer>
 		</dict>

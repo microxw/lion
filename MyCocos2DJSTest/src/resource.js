@@ -16,9 +16,9 @@ var res = {
     bg_png: "res/TileMaps/texture/background.png",
     map00_tmx: "res/TileMaps/iso-test-zorder.tmx",
     map01_tmx: "res/TileMaps/world_0_1.tmx",
-    skeletonCowboy_json:"res/skeleton/Cowboy.ExportJson",
-    Cowboy_plist: "res/skeleton/Cowboy0.plist",
-    Cowboy_png: "res/skeleton/Cowboy0.png"
+    skeletonCowboy_json:"res/skeleton/skeletonAnimation.ExportJson",
+    Cowboy_plist: "res/skeleton/skeletonAnimation0.plist",
+    Cowboy_png: "res/skeleton/skeletonAnimation0.png"
 };
 
 var g_resources = [];

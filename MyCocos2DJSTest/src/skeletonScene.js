@@ -35,7 +35,7 @@ var skeletonTestLayer = cc.Layer.extend({
         //但是在3.9里面不能这么用
         //ccs.armatureDataManager is a singleton object which format and manage armature configuration and armature animation
         ccs.armatureDataManager.addArmatureFileInfo(res.Cowboy_png, res.Cowboy_plist, res.skeletonCowboy_json);
-        var armature = new ccs.Armature("Cowboy");
+        var armature = new ccs.Armature("skeletonAnimation");
         armature.getAnimation().playWithIndex(0);
         armature.scale = 0.2;
         armature.anchorX = 0.5;

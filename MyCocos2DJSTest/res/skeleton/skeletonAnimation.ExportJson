@@ -1,0 +1,659 @@
+{
+  "content_scale": 1.0,
+  "armature_data": [
+    {
+      "strVersion": "1.6.0.0",
+      "version": 1.6,
+      "name": "skeletonAnimation",
+      "bone_data": [
+        {
+          "name": "BoneBody",
+          "parent": "",
+          "dI": 0,
+          "x": -53.333320617675781,
+          "y": -77.755523681640625,
+          "z": 4,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -6.230641,
+          "kY": 6.230641,
+          "arrow_x": -6.7472457885742188E-05,
+          "arrow_y": -2.8584268875420094E-05,
+          "effectbyskeleton": true,
+          "bl": 0,
+          "display_data": [
+            {
+              "name": "testAnimationResource/6.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 56.60723,
+                  "y": 70.97688,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BoneHat",
+          "parent": "BoneBody",
+          "dI": 0,
+          "x": -19.99993896484375,
+          "y": 56.666427612304688,
+          "z": 6,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": -2.09167242,
+          "kY": 2.09167242,
+          "arrow_x": 214.50198364257813,
+          "arrow_y": -0.00017950293840840459,
+          "effectbyskeleton": true,
+          "bl": 214,
+          "display_data": [
+            {
+              "name": "testAnimationResource/hat.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 282.981018,
+                  "y": -4.66192627,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 2.1458745,
+                  "kY": -2.145859
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BoneLeft",
+          "parent": "BoneBody",
+          "dI": 0,
+          "x": 96.666748046875,
+          "y": -40.000282287597656,
+          "z": 5,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 7.453746,
+          "kY": -7.453746,
+          "arrow_x": 188.20797729492188,
+          "arrow_y": 0.00012184045044705272,
+          "effectbyskeleton": true,
+          "bl": 188,
+          "display_data": [
+            {
+              "name": "testAnimationResource/1.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 90.91589,
+                  "y": 26.68483,
+                  "cX": 1.00000012,
+                  "cY": 1.00000012,
+                  "kX": -1.17056,
+                  "kY": 1.17056262
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BoneGun",
+          "parent": "BoneBody",
+          "dI": 0,
+          "x": -109.83339691162109,
+          "y": 17.730419158935547,
+          "z": 3,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 9.016233,
+          "kY": -9.016233,
+          "arrow_x": 196.97708129882813,
+          "arrow_y": 9.6738222055137157E-05,
+          "effectbyskeleton": true,
+          "bl": 196,
+          "display_data": [
+            {
+              "name": "testAnimationResource/3.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 230.483582,
+                  "y": -47.72127,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 1.9890188,
+                  "kY": -1.98902535
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BoneLeftBoot",
+          "parent": "BoneBody",
+          "dI": 0,
+          "x": 3.3333244323730469,
+          "y": -116.66692352294922,
+          "z": 2,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 1.25580263,
+          "kY": -1.25580263,
+          "arrow_x": 312.0185546875,
+          "arrow_y": 3.8421072531491518E-05,
+          "effectbyskeleton": true,
+          "bl": 312,
+          "display_data": [
+            {
+              "name": "testAnimationResource/7.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 286.663635,
+                  "y": 8.261559,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -1.25580466,
+                  "kY": 1.25579882
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BoneRightBoot",
+          "parent": "BoneBody",
+          "dI": 0,
+          "x": -33.333305358886719,
+          "y": -90.000251770019531,
+          "z": 1,
+          "cX": 1.0,
+          "cY": 1.0,
+          "kX": 1.92836237,
+          "kY": -1.92836237,
+          "arrow_x": 323.81414794921875,
+          "arrow_y": 0.00015792989870533347,
+          "effectbyskeleton": true,
+          "bl": 323,
+          "display_data": [
+            {
+              "name": "testAnimationResource/4.png",
+              "displayType": 0,
+              "skin_data": [
+                {
+                  "x": 317.946472,
+                  "y": -12.8674583,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 4.35481834,
+                  "kY": 1.92837262
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "animation_data": [
+    {
+      "name": "skeletonAnimation",
+      "mov_data": [
+        {
+          "name": "Animation1",
+          "dr": 31,
+          "lp": true,
+          "to": 0,
+          "drTW": 0,
+          "twE": 0,
+          "sc": 1.0,
+          "mov_bone_data": [
+            {
+              "name": "BoneHat",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.1654787,
+                  "kY": -0.1654787,
+                  "fi": 5,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.2506956,
+                  "kY": -0.2506956,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.185328141,
+                  "kY": -0.185328141,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.07481194,
+                  "kY": -0.07481194,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.008216974,
+                  "kY": 0.008216974,
+                  "fi": 25,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "BoneLeft",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.108248383,
+                  "kY": -0.108248383,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.238044947,
+                  "kY": 0.238044947,
+                  "fi": 25,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "BoneBody",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.109160095,
+                  "kY": -0.109160095,
+                  "fi": 5,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 19.999996185302734,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.100926712,
+                  "kY": -0.100926712,
+                  "fi": 10,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": -2.5,
+                  "y": -10.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.100926712,
+                  "kY": -0.100926712,
+                  "fi": 20,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": -2.5,
+                  "y": 17.499996185302734,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.100926712,
+                  "kY": -0.100926712,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "BoneGun",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.09692384,
+                  "kY": -0.09692384,
+                  "fi": 5,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.008398002,
+                  "kY": 0.008398002,
+                  "fi": 15,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.418785572,
+                  "kY": 0.418785572,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "BoneLeftBoot",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.00757300574,
+                  "kY": -0.00757300574,
+                  "fi": 25,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": -0.0234497245,
+                  "kY": 0.0234497245,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            },
+            {
+              "name": "BoneRightBoot",
+              "dl": 0.0,
+              "frame_data": [
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.0,
+                  "kY": 0.0,
+                  "fi": 0,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                },
+                {
+                  "dI": 0,
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0,
+                  "cX": 1.0,
+                  "cY": 1.0,
+                  "kX": 0.01748839,
+                  "kY": -0.01748839,
+                  "fi": 30,
+                  "twE": 0,
+                  "tweenFrame": true,
+                  "bd_src": 1,
+                  "bd_dst": 771
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "texture_data": [
+    {
+      "name": "testAnimationResource/6",
+      "width": 474.0,
+      "height": 402.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "testAnimationResource/1",
+      "width": 201.0,
+      "height": 320.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "testAnimationResource/3",
+      "width": 247.0,
+      "height": 479.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "testAnimationResource/hat",
+      "width": 452.0,
+      "height": 458.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "testAnimationResource/4",
+      "width": 141.0,
+      "height": 110.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    },
+    {
+      "name": "testAnimationResource/7",
+      "width": 146.0,
+      "height": 112.0,
+      "pX": 0.5,
+      "pY": 0.5,
+      "plistFile": ""
+    }
+  ],
+  "config_file_path": [
+    "skeletonAnimation0.plist"
+  ],
+  "config_png_path": [
+    "skeletonAnimation0.png"
+  ]
+}
