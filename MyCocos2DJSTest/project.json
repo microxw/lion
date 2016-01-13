@@ -6,10 +6,10 @@
     "frameRate" : 60,
     "noCache" : false,
     "id" : "gameCanvas",
-    "renderMode" : 1,
+    "renderMode" : 0,
     "engineDir":"frameworks/cocos2d-html5",
 
-    "modules" : ["cocos2d"],
+    "modules" : ["cocos2d", "extensions", "external"],
 
     "jsList" : [
         "src/resource.js",
@@ -20,6 +20,6 @@
         "src/waveSea.js",
         "src/waveSprites.js",
         "src/Box2dScene.js",
-        "frameworks/cocos2d-html5/external/box2d/box2d.js"
+        "src/skeletonScene.js"
     ]
 }

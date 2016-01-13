@@ -109,11 +109,12 @@ var HelloWorldLayer = cc.Layer.extend({
 
     onMenu2Callback: function (sender) {
         // exchange to wave scene
-        cc.director.runScene(new cc.TransitionFade(1.5, new waveTestScene()));
+        cc.director.runScene(new cc.TransitionCrossFade(1, new waveTestScene()));
     },
 
     onMenu3Callback: function (sender) {
-        cc.log("onMenu3Callback");
+        // exchange to skeleton scene
+        cc.director.runScene(new cc.TransitionFadeUp(0.5, new skeletonTestScene()))
     },
 
     onMenu4Callback: function (sender) {
