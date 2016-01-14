@@ -6,6 +6,7 @@ var waveTile = cc.Sprite.extend({
     _index: 0,
     _tilePos: null,
     _random: null,
+    _gridSize: null,
 
     ctor: function (index) {
         this._gridSize = cc.size(MAP_CONFIG.waveGridSize.width, MAP_CONFIG.waveGridSize.height);
@@ -14,14 +15,16 @@ var waveTile = cc.Sprite.extend({
         this._index = index;
         this._tilePos = cc.p(0, 0);
         this._random = cc.p(2, 4);
+
+        this.init();
     },
 
-    /**
-     * Update will be called automatically every frame if "scheduleUpdate" is called when the node is "live".<br/>
-     * The default behavior is to invoke the visit function of node's componentContainer.<br/>
-     * @param {Number} dt Delta time since last update
-     */
-    update: function (dt) {
+    init: function () {
+
+    },
+
+    // Update will be called automatically every frame if "scheduleUpdate" is called when the node is "live"
+    update: function (dt) { // dt Delta time since last update
         if (++this._index >= TEXTURE_LEN) {
             this._index = 0;
         }
@@ -30,7 +33,7 @@ var waveTile = cc.Sprite.extend({
 });
 
 var waveSprites = cc.SpriteBatchNode.extend({
-    _tiles: null,
+    _tiles: [], //动画序列帧保存
     _gridSize: null,
     _count: 0,
     _deltaT: 0,
@@ -62,8 +65,8 @@ var waveSprites = cc.SpriteBatchNode.extend({
         var n = Math.round(d / r); //所需动画总个数
         n += (n % 2 == 0 ? 3 : 2);
         this._count = n;
+        cc.log("whole grid count= " + this._count);
 
-        this._tiles = []; //动画序列帧保存
         var midX = winSize.width / 2, midY = winSize.height / 2;
         for (var i = 0; i < n; i++) { //每个格子在每个时刻都对应一个图案
             var line = [];
@@ -82,7 +85,7 @@ var waveSprites = cc.SpriteBatchNode.extend({
         }
     },
 
-    update: function (dt) { //dt是每帧耗时
+    update: function (dt) { // dt Delta time since last update
         this._super(dt);
         this._deltaT += dt;
         this._tickStart += dt * 3;
