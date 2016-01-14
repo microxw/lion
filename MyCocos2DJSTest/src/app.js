@@ -52,12 +52,12 @@ var HelloWorldLayer = cc.Layer.extend({
         spriteSelected = new cc.Sprite(res.Item2Selected_png);
         var item2 = new cc.MenuItemSprite(spriteNormal, spriteSelected, null, this.onMenu2Callback, this);
 
-        spriteNormal = new cc.Sprite(res.Item1Normal_png);
-        spriteSelected = new cc.Sprite(res.Item1Selected_png);
+        spriteNormal = new cc.Sprite(res.Item3Normal_png);
+        spriteSelected = new cc.Sprite(res.Item3Selected_png);
         var item3 = new cc.MenuItemSprite(spriteNormal, spriteSelected, null, this.onMenu3Callback, this);
 
-        spriteNormal = new cc.Sprite(res.Item2Normal_png);
-        spriteSelected = new cc.Sprite(res.Item2Selected_png);
+        spriteNormal = new cc.Sprite(res.Item4Normal_png);
+        spriteSelected = new cc.Sprite(res.Item4Selected_png);
         var item4 = new cc.MenuItemSprite(spriteNormal, spriteSelected, null, this.onMenu4Callback, this);
 
         var menu = new cc.Menu(item1, item2, item3, item4);

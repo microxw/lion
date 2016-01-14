@@ -44,16 +44,10 @@ var waveSprites = cc.SpriteBatchNode.extend({
     },
 
     init: function () {
-
         // function: scheduleUpdate()
         // cc.Node - Callbacks
         // timers
-        /**
-         * <p>schedules the "update" method.                                                                        <br/>
-         * It will use the order number 0. This method will be called every frame.                                  <br/>
-         * Scheduled methods with a lower order value will be called before the ones that have a higher order value.<br/>
-         * Only one "update" method could be scheduled per node.</p>
-         */
+        // schedules the "update" method
         this.scheduleUpdate();
 
         var winSize = cc.winSize;
@@ -94,7 +88,6 @@ var waveSprites = cc.SpriteBatchNode.extend({
         this._tickStart += dt * 3;
         var n = this._count;
         var spriteUpdate = (this._deltaT > 0.16); // 保持一定的更新速度
-
         for (var i = 0; i < n; i++) {
             for (var j = 0; j < n; j++) {
                 var sprite = this._tiles[i][j];
