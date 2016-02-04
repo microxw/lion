@@ -19,7 +19,9 @@ var res = {
     map01_tmx: "res/TileMaps/world_0_1.tmx",
     skeletonCowboy_json:"res/skeleton/skeletonAnimation.ExportJson",
     Cowboy_plist: "res/skeleton/skeletonAnimation0.plist",
-    Cowboy_png: "res/skeleton/skeletonAnimation0.png"
+    Cowboy_png: "res/skeleton/skeletonAnimation0.png",
+    tileMap_tmx: "res/TileGameResources/TileMap.tmx",
+    player_png: "res/TileGameResources/Player.png",
 };
 
 var g_resources = [];

@@ -118,7 +118,8 @@ var HelloWorldLayer = cc.Layer.extend({
     },
 
     onMenu4Callback: function (sender) {
-        cc.log("onMenu4Callback");
+        // exchange to tile map scene
+        cc.director.runScene(new cc.TransitionJumpZoom(0.5, new tileMapScene()))
     },
 
 });

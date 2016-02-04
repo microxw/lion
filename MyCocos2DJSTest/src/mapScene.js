@@ -2,8 +2,6 @@
  test for how to use a tile map
  */
 
-var TAG_TILE_MAP = -1;
-
 var mapTestScene = cc.Scene.extend({
     onEnter: function () {
         this._super();

@@ -1,23 +1,27 @@
 {
-    "project_type": "javascript",
-
-    "debugMode" : 1,
-    "showFPS" : true,
-    "frameRate" : 60,
-    "noCache" : false,
-    "id" : "gameCanvas",
-    "renderMode" : 0,
-    "engineDir":"frameworks/cocos2d-html5",
-    "modules" : ["cocos2d", "extensions", "external"],
-    "jsList" : [
-        "src/resource.js",
-        "src/app.js",
-        "src/mapScene.js",
-        "src/mapConfig.js",
-        "src/waveScene.js",
-        "src/waveSea.js",
-        "src/waveSprites.js",
-        "src/Box2dScene.js",
-        "src/skeletonScene.js"
-    ]
+  "project_type": "javascript",
+  "debugMode": 1,
+  "showFPS": true,
+  "frameRate": 60,
+  "noCache": false,
+  "id": "gameCanvas",
+  "renderMode": 1,
+  "engineDir": "frameworks/cocos2d-html5",
+  "modules": [
+    "cocos2d",
+    "extensions",
+    "external"
+  ],
+  "jsList": [
+    "src/resource.js",
+    "src/app.js",
+    "src/mapScene.js",
+    "src/mapConfig.js",
+    "src/waveScene.js",
+    "src/waveSea.js",
+    "src/waveSprites.js",
+    "src/Box2dScene.js",
+    "src/skeletonScene.js",
+    "src/tileMapScene.js"
+  ]
 }

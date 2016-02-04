@@ -1,4 +1,5 @@
 // configuration of map
+var TAG_TILE_MAP = -1;
 
 MAP_CONFIG ={}
 
