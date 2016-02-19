@@ -3,6 +3,17 @@
  <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="48">
   <image source="tmw_desert_spacing.png" width="265" height="199"/>
  </tileset>
+ <tileset firstgid="49" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="2">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <terraintypes>
+   <terrain name="新地形" tile="-1"/>
+  </terraintypes>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer name="Background" width="50" height="50">
   <data encoding="base64" compression="zlib">
    eJztmulOwzAMgAuIbVBgHBOnNJg4VBhHH2mPxqPwaDhSKllR09iu0wTWH5+qtonjb7GrVtqyKIolUNvjDXAbgTtnHW1M3Aqdr4An4E2RZ+ARrVFF8nlBcVfOmhrgmLVdb4j9YHhsLGSPcT/4+/Fe0HoW0/V8+BhoP5Yo7msR7ts1MAGmlhlh3tpZJzbmt7rvOJoxn8AJMLec2utd8yri+lKmQo6RxxFxzoyY00Qwb/4HaPZ7GzyuBuSakI/hEthnevh6XRtuDm3PEQm1IpL1tTxSI/V4IDBkHKmHeef5ChyHjLPtdZUbo0dejB55MXrkxeiRF6NHXnA9doDdDNlj5GjGHgCHGVIij1COJRqzAM4TgvMy5xfI48wzB3L+dj2wfyoaD+p4yPmny8Pdt7brnLEh/rtHaHzIIxRXoyYo8WN5aNY2x8N33ubRt145NSj1ovRHn3rl9pJ0v3Lz8M3h7g+1PzT6heOh0R/aHn16qo8Ht1b61n4sj1LZg9JLqerKV/+cXpDMycFDq5die0jvx/KAd/lNif4rUtpzH01M6X0JbsxFx/NKUt+pMR7ut1bjkfLbkIv5dvwFtdQI0w==
@@ -11,4 +22,14 @@
  <objectgroup name="Objects">
   <object id="1" name="SpawnPoint" x="80" y="299"/>
  </objectgroup>
+ <layer name="Foreground" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAADg3wAnEAAB
+  </data>
+ </layer>
+ <layer name="Meta" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt00EKACAIBEC/1P8/17ljlGUxA15dFjRi1BLnpN96VN95I1OP9czZW6/6H6/3AAAAAAAAAABgjw61rxJh
+  </data>
+ </layer>
 </map>
