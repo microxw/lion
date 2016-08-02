@@ -37,7 +37,7 @@ var mapLayer = cc.Layer.extend({
         var spawnPoint = objects.getObject("SpawnPoint");
         this._player = new cc.Sprite(res.player_png);
         this.addChild(this._player);
-        this._player.setPosition(spawnPoint.getPositionX(), spawnPoint.getPositionY());
+        this._player.setPosition(spawnPoint.x, spawnPoint.y);
         this.setViewPiontCenter(this._player.getPosition());
 
         //touch event

@@ -2,10 +2,10 @@
   "project_type": "javascript",
   "debugMode": 1,
   "showFPS": true,
-  "frameRate": 60,
+  "frameRate": 50,
   "noCache": false,
   "id": "gameCanvas",
-  "renderMode": 1,
+  "renderMode": 2,
   "engineDir": "frameworks/cocos2d-html5",
   "modules": [
     "cocos2d",
@@ -15,13 +15,14 @@
   "jsList": [
     "src/resource.js",
     "src/app.js",
-    "src/mapScene.js",
-    "src/mapConfig.js",
-    "src/waveScene.js",
-    "src/waveSea.js",
-    "src/waveSprites.js",
-    "src/Box2dScene.js",
-    "src/skeletonScene.js",
-    "src/tileMapScene.js"
+    "src/map/mapScene.js",
+    "src/map/mapConfig.js",
+    "src/map/tileMapScene.js",
+    "src/wave/waveScene.js",
+    "src/wave/waveSea.js",
+    "src/wave/waveSprites.js",
+    "src/Box2D/Box2dScene.js",
+    "src/skeleton/skeletonScene.js",
+    "src/particle/particleScene.js"
   ]
 }

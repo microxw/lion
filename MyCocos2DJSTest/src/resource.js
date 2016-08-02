@@ -11,6 +11,7 @@ var res = {
     Item2Normal_png : "res/item2_N.png",
     Item3Normal_png : "res/item3_N.png",
     Item4Normal_png : "res/item4_N.png",
+    Item5Normal_png : "res/item5_N.png",
     iso_test_png: "res/TileMaps/iso-test.png",
     sister_png: "res/TileMaps/grossinis_sister.png",
     blocks_png: "res/TileMaps/blocks.png",
@@ -22,6 +23,7 @@ var res = {
     Cowboy_png: "res/skeleton/skeletonAnimation0.png",
     tileMap_tmx: "res/TileGameResources/TileMap.tmx",
     player_png: "res/TileGameResources/Player.png",
+    fire_png: "res/particle/fire.png",
 };
 
 var g_resources = [];
