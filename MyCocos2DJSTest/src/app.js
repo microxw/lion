@@ -64,7 +64,7 @@ var HelloWorldLayer = cc.Layer.extend({
         spriteSelected = new cc.Sprite(res.ItemSelected_png);
         var item5 = new cc.MenuItemSprite(spriteNormal, spriteSelected, null, this.onMenu5Callback, this);
 
-        var menu = new cc.Menu(item1, item2, item3, item4,item5);
+        var menu = new cc.Menu(item1, item2, item3, item4, item5);
         menu.alignItemsVertically();
         menu.x = size.width - 100;
         menu.y = size.height / 2;
@@ -118,16 +118,17 @@ var HelloWorldLayer = cc.Layer.extend({
 
     onMenu3Callback: function (sender) {
         // exchange to skeleton scene
-        cc.director.runScene(new cc.TransitionFadeUp(0.5, new skeletonTestScene()));
+        cc.director.runScene(new cc.TransitionFadeUp(0.5, new skeletonTestScene()))
     },
 
     onMenu4Callback: function (sender) {
         // exchange to tile map scene
-        cc.director.runScene(new cc.TransitionJumpZoom(0.5, new tileMapScene()));
+        cc.director.runScene(new cc.TransitionJumpZoom(0.5, new tileMapScene()))
     },
 
     onMenu5Callback: function (sender) {
-        cc.director.runScene(new cc.TransitionJumpZoom(1.5, new shaderScene()));
+        // exchange to tile map scene
+        cc.director.runScene(new cc.TransitionRotoZoom(0.5, new particleScene()))
     },
 
 });

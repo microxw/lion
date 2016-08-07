@@ -23,13 +23,7 @@ var res = {
     Cowboy_png: "res/skeleton/skeletonAnimation0.png",
     tileMap_tmx: "res/TileGameResources/TileMap.tmx",
     player_png: "res/TileGameResources/Player.png",
-    shader_heart_vsh : "res/shader/example_Heart.vsh",
-    shader_heart_fsh : "res/shader/example_Heart.fsh",
-    head_png: "res/shader/HeadBall.png",
-    shader_outline_fsh : "res/shader/example_Outline.fsh",
-    shader_outline_vsh : "res/shader/example_Outline.vsh",
-    shader_outline_mvp_vsh : "res/shader/example_Outline_noMVP.vsh",
-
+    fire_png: "res/particle/fire.png",
 };
 
 var g_resources = [];
